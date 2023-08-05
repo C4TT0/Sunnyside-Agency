@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sunnyside Agenices</title>
+
+    <!-- Basics -->
+
+    <link
+      rel="shortcut icon"
+      href="./images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media-queries.css">
+    <script src="./script.js" defer></script>
+
+    <!-- Google fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Lato:wght@900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Nav -->
+
+    <header>
+      <nav class="flex">
+        <div class="logo flex centre">
+          <img src="./images/logo.svg" alt="Sunnyside Agenices" />
+        </div>
+        <div class="navToolTip p-absolute"></div>
+        <ul class="links flex centre">
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li class="btn flex centre">
+            <a href="#footer" class="flex centre">Contact</a>
+          </li>
+          <li class="close">
+            <a href="#" class="">
+              <i class="ri-close-line closeBtn"></i>
+            </a>
+          </li>
+        </ul>
+        <a href="#" class="openBtn">
+          <i class="ri-menu-line"></i>
+        </a>
+      </nav>
+    </header>
+
+    <!-- Hero -->
+
+    <main class="flex centre">
+      <div class="hero__text flex centre">
+        <h1>We are Creatives</h1>
+        <img src="./images/icon-arrow-down.svg" alt="" />
+      </div>
+    </main>
+
+    <!-- Content grid -->
+
+    <article class="content">
+      <section class="grid" id="about">
+        <div class="content__text flex centre">
+          <div class="content__wrapper">
+            <h2>Transform your brand</h2>
+            <p>
+              We are a full-service creative agency specializing in helping
+              brands grow fast. Engage your clients through compelling visuals
+              that do most of the marketing for you.
+            </p>
+            <a href="" class="p-relative">Learn More</a>
+          </div>
+        </div>
+        <div class="content__img">
+          <img src="./images/desktop/image-transform.jpg" alt="" />
+        </div>
+      </section>
+      <section class="grid">
+        <div class="content__img">
+          <img src="./images/desktop/image-stand-out.jpg" alt="" />
+        </div>
+        <div class="content__text flex centre">
+          <div class="content__wrapper red">
+            <h2>Stand out to the right audience</h2>
+            <p>
+              Using a collaborative formula of designers, researchers,
+              photographers, videographers, and copywriters, we’ll build and
+              extend your brand in digital places.
+            </p>
+            <a href="" class="p-relative">Learn More</a>
+          </div>
+        </div>
+      </section>
+      <section class="grid" id="services">
+        <div class="content__gd p-relative flex centre">
+          <img src="./images/desktop/image-graphic-design.jpg" alt="" />
+          <div class="content__gdText p-absolute flex centre">
+            <h3>Graphic Design</h3>
+            <p>
+              Great design makes you memorable. We deliver artwork that
+              underscores your brand message and captures potential clients’
+              attention.
+            </p>
+          </div>
+        </div>
+        <div class="content__pg p-relative flex centre">
+          <img src="./images/desktop/image-photography.jpg" alt="" />
+          <div class="content__gdText p-absolute flex centre">
+            <h3>Photography</h3>
+            <p>
+              Increase your credibility by getting the most stunning,
+              high-quality photos that improve your business image.
+            </p>
+          </div>
+        </div>
+      </section>
+    </article>
+
+    <!-- Testimonials -->
+
+    <article class="testimonial flex centre">
+      <div class="testimonial__text" >
+        <h3 class="">Client Testimonials</h3>
+      </div>
+      <div class="testimonial__grid flex">
+        <div class="testimonial__gridElement flex centre">
+          <img src="./images/image-emily.jpg" alt="" />
+          <p>
+            We put our trust in Sunnyside and they delivered, making sure our
+            needs were met and deadlines were always hit.
+          </p>
+          <h4>Emily R.</h4>
+          <span>Marketting Director</span>
+        </div>
+        <div class="testimonial__gridElement flex centre">
+          <img src="./images/image-thomas.jpg" alt="" />
+          <p>
+            Sunnyside’s enthusiasm coupled with their keen interest in our
+            brand’s success made it a satisfying and enjoyable experience.
+          </p>
+          <h4>Thomas S.</h4>
+          <span>Chief Operating Officer</span>
+        </div>
+        <div class="testimonial__gridElement flex centre">
+          <img src="./images/image-jennie.jpg" alt="" />
+          <p>
+            Incredible end result! Our sales increased over 400% when we worked
+            with Sunnyside. Highly recommended!
+          </p>
+          <h4>Jennis F.</h4>
+          <span>Buisness Owner</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- Projects -->
+
+    <article class="projects flex" id="projects">
+      <div class="display__images">
+        <img src="./images/desktop/image-gallery-milkbottles.jpg" alt="" />
+      </div>
+      <div class="display__images">
+        <img src="./images/desktop/image-gallery-orange.jpg" alt="" />
+      </div>
+      <div class="display__images">
+        <img src="./images/desktop/image-gallery-cone.jpg" alt="" />
+      </div>
+      <div class="display__images">
+        <img src="./images/desktop/image-gallery-sugarcubes.jpg" alt="" />
+      </div>
+    </article>
+
+    <!-- Footer -->
+
+    <footer id="footer" class="flex centre">
+      <div class="footer__wrapper">
+        <h1>sunnyside</h1>
+        <ul class="footer__links flex">
+          <li>About</li>
+          <li>Services</li>
+          <li>Projects</li>
+        </ul>
+        <ul class="footer__socials flex centre">
+          <li><i class="ri-facebook-box-fill"></i></li>
+          <li><i class="ri-instagram-line"></i></li>
+          <li><i class="ri-twitter-fill"></i></li>
+          <li><i class="ri-pinterest-fill"></i></li>
+        </ul>
+        <div class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+          Coded by <a href="https://github.com/C4TT0" target="_blank">C4TT0</a>.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

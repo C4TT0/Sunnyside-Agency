@@ -1,0 +1,155 @@
+@media screen and (max-width: 1050px) {
+    .hero__text h1{
+      font-size: 6rem;
+    }
+  
+    .content__wrapper h2{
+      font-size: 1.8rem;
+    }
+  
+    .content__wrapper p, a{
+      font-size: 0.75rem;
+    }
+
+    .content__gdText h3{
+        font-size: 1.75rem;
+    }
+
+    .content__gdText p{
+        font-size: 0.75rem;
+    }
+  }
+  
+  @media screen and (max-width: 950px) {
+    .content__wrapper h2{
+      font-size: 2rem;
+    }
+  
+    .content__wrapper p, a{
+      font-size: 0.75rem;
+    }
+  
+    .testimonial__gridElement p{
+      font-size: 0.85rem;
+    }
+  
+    .testimonial__gridElement h4{
+      font-size: 0.85rem;
+    }
+  
+    .testimonial__gridElement span{
+      font-size: 0.95rem;
+    }
+
+    .content__gdText{
+        width: 80% !important;
+    }
+
+    .content__gdText h3{
+        font-size: 1.5rem;
+    }
+  }
+  
+  @media screen and (max-width: 800px){
+    .content__wrapper h2{
+      font-size: 1.75rem;
+    }
+  
+    .content__wrapper p, a{
+      font-size: 0.75rem;
+    }
+  
+    .testimonial__gridElement{
+      margin: 2rem 0;
+    }
+  
+    .testimonial__grid{
+      flex-direction: column;
+    }
+
+    .content__gdText{
+        bottom: 5%;
+    }
+
+    .content__gdText h3{
+        font-size: 1.5rem;
+    }
+
+    .content__gdText p{
+        font-size: 0.75rem;
+    }
+  }
+  
+  @media screen and (max-width: 728px){
+
+    .content__gdText{
+        bottom: 10%;
+    }
+  
+    .content section{
+      grid-template-columns: auto;
+    }
+  
+    .content__text{
+      padding: 2rem 0;
+    }
+  
+    .content__wrapper{
+      width: 40%;
+    }
+  
+    .projects{
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+
+    nav ul{
+        display: none !important;
+        padding: 2rem 3rem;
+        position: absolute;
+        right: 70px;
+        top: 80px;
+        background: #fffbf8;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .close, .openBtn{
+        display: block;
+    }
+
+    nav ul li{
+        margin: 1rem 0 !important;
+    }
+
+    nav ul li a{
+        color: #7d7a83;
+        font-size: 0.8rem;
+    }
+
+    .btn{
+        background-color: #fbd601;
+    }
+
+    .btn:hover{
+        background-color: #fbd5012d;
+    }
+
+    .btn:hover a{
+        color: #000;
+    }
+
+    .content__gdText h3{
+        font-size: 2rem;
+    }
+
+    .content__gdText p{
+        font-size: 0.75rem;
+    }
+  }
+  
+  @media screen and (max-width: 440px){
+    .hero__text h1{
+      font-size: 4rem;
+    }
+  }
